@@ -1,0 +1,44 @@
+public --> means that this is available to anyone else
+
+static --> this number is going to be shared by ever animal object that is created
+
+final --> means that this is a constant; common to be defined in all caps
+
+double --> means that this is a variable type that allows you to enter decimal places
+
+variables or fields start off with either a letter or an underscore, or $
+
+fields --> attributes for whatever we are defining
+
+private field --> means that it can be accessed by other methods in the class and that's it; good practice to keep fields as private to prevent outsiders from changing them
+
+string --> string of characters
+creating a field in java
+
+different variable data types in java
+  -String
+  -int (integer) --> can have a value of -2^31 to 2^31
+  -boolean (true/false)
+  -byte (can have a value of -28 to 127)
+  -long (can have value of -2^63 to 2^63)
+  -char (characters), - unsigned ints that represent utf-16 codes for characters just single characters
+  -double - number with a decimal place; it's a 64-bit #
+  -float - 32-bit # with decimals
+
+  preferable to use doubles over floats, s floats are not very accurate
+
+  protected data type --> means that this value can only be accessed by other code in the package
+
+  preferable to make any variable or function STATIC if it doesn't make sense for an object to have that thing on its own
+
+  every time a new animal object is created, we need a function called a constructor to be executed
+
+  when a class 'extends' another super class, this means that it is a subclass of that super class -- this is called 'inheritance' --> every single field and method that is in the super class is going to be available to the sub classes
+
+  'super()' calls the super class to be executed
+
+  'print' vs 'println' are different because with 'print' there is no line break (\n), in 'println', there is a line break.
+
+  'this' refers to the object that is being created
+
+  method over-loading: you can have the same method declared multpile times that passes different data types each time
